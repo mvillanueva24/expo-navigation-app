@@ -2,7 +2,7 @@ import { Href, Redirect } from "expo-router";
 import React from "react";
 
 const App = () => {
-  const route = "/tabs" as Href;
+  const route = "/drawer" as Href;
 
   return <Redirect href={route}></Redirect>;
 
