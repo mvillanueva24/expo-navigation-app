@@ -1,8 +1,10 @@
-import { Redirect } from "expo-router";
+import { Href, Redirect } from "expo-router";
 import React from "react";
 
 const App = () => {
-  return <Redirect href="/(stack)/home" />;
+  const route = "/tabs" as Href;
+
+  return <Redirect href={route}></Redirect>;
 
   // return (
   //   <SafeAreaView>
